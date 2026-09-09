@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "chromatic-aberration",
+      "tags": [
+        "lens",
+        "fringe",
+        "glitch"
+      ],
+      "purpose": "Split the red and blue channels outward from a point, like a cheap lens."
+    },
+    {
+      "id": "grainy-gradient",
+      "tags": [
+        "gradient",
+        "grain",
+        "background",
+        "source",
+        "colour"
+      ],
+      "purpose": "A two-colour gradient with film grain over it. A source: no input, renders as soon as it is placed.",
+      "useWhen": "You want a background, or a colour ramp to feed another node.",
+      "avoidWhen": "You need a specific image; this generates, it does not load.",
+      "reuse": "copy-as-is"
+    },
+    {
+      "id": "vignette",
+      "tags": [
+        "edge",
+        "stylize"
+      ],
+      "purpose": "Fade the frame edges toward a color."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SubZ Example Library",
+  "version": "1.0.0",
+  "description": "A small real library to read, add and fork: what the node library format looks like.",
+  "author": "SXP Studio",
+  "license": "MIT",
+  "homepage": "https://github.com/sxp-studio/subz-example-library",
+  "madeWith": "0.4.0"
+}
